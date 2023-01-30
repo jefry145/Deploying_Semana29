@@ -1,0 +1,21 @@
+
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span>Add Product</span>
+        <span class="example-spacer"></span>
+        <button (click)="openDialog()" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+          <mat-icon>settings</mat-icon>
+        </button>
+      </mat-toolbar-row>
+    </mat-toolbar>
+
+<router-outlet></router-outlet>
+
+
+<!-- <form [formGroup]="formLogin">
+    <label for="">Product</label>
+    <input type="text" formControlName="product">
+    <label for="">Cost</label>
+    <input type="text" formControlName="cost">
+    <button type="submit" (click)="onSubmit()">Send</button>
+</form> -->
